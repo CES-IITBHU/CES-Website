@@ -41,7 +41,7 @@ function SideMenu() {
           activeClassName="active"
           className=" mob_pos w-full px-5 py-2 rounded text-gray-800 items-center justify-center transition duration-150 border-b-4 border-transparent hover:border-blue-600"
         >
-          Shilp24
+          SHILP
         </NavLink>
 
         <NavLink
@@ -124,7 +124,7 @@ const Navbar = ({ isShowJoin, setIsShowJoin }) => {
               activeClassName="active"
               className=" mob_pos w-full px-5 py-2 rounded text-gray-800 items-center justify-center transition duration-150 border-b-4 border-transparent hover:border-blue-600"
             >
-            Shilp24
+            SHILP
           </NavLink>
 
             <NavLink
