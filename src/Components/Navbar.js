@@ -44,13 +44,13 @@ function SideMenu() {
           SHILP
         </NavLink>
 
-        <NavLink
+        {/* <NavLink
           to="/funds"
           activeClassName="active"
           className=" mob_pos w-full px-5 py-2 rounded text-gray-800 items-center justify-center transition duration-150 border-b-4 border-transparent hover:border-blue-600"
         >
           Funds
-        </NavLink>
+        </NavLink> */}
 
         
 
@@ -127,13 +127,13 @@ const Navbar = ({ isShowJoin, setIsShowJoin }) => {
             SHILP
           </NavLink>
 
-            <NavLink
+            {/* <NavLink
               to="/funds"
               activeClassName="active"
               className="md:inline-flex md:w-auto w-full lg:px-5 px-4 py-2 rounded text-gray-800 items-center justify-center transition duration-150 border-b-4 border-transparent hover:border-blue-600"
             >
               Funds
-            </NavLink>
+            </NavLink> */}
 
             
 

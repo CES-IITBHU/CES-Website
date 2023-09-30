@@ -21,8 +21,7 @@ const Homepage = () => {
               <h>The Society of Civil Engineers</h>
             </div>
             <div className="text">
-            <p>Civil Engineering Society is the interaction community of the civil engineers, often referred to as CES,  It serves as a link between enrolled civil engineering students, alumni and professors at IIT BHU
-            The Civil Engineering Society typically refers to a community  dedicated to the field of civil engineering. The CES is an essential hub for students of civil engineering , offering resources, networking opportunities, and career enhancement.</p>
+            <p>The Civil Engineering Society (CES) at IIT BHU is an esteemed association uniting current students and accomplished alumni. Our mission is to facilitate comprehensive growth and development among our members. Guided by experienced students, esteemed professors, and successful alumni, CES stands as a distinguished institution in the realm of civil engineering. We are committed to cultivating an environment where the fusion of knowledge and experience thrives, enabling each member to reach their full potential.</p>
 
             </div>
           </div>
@@ -36,12 +35,16 @@ const Homepage = () => {
       </div>
       <div className="mt-10 mb-20">
         <div className="text-4xl text-center font-bold">About Us</div>
-        <div className="container">
-        This society is an effort to allow communication and sharing of ideas and information among all upcoming civil engineers and aim to provide a platform to show off their skills in every part of their life. The Society plays an active role in improving the Faculty-Student interaction in the department which involves Events, Talk Shows, Workshops, Hackathons and many more…
-CES also conducts SHILP - one of the biggest cultural event of the civil engineering society it is more than just a fest , it's a fest where students explore their creative as well as technical aspects of civil engineering.Undoubtedly! Team is the backbone of any  society in CES, you'll encounter a diverse team alligned towards same mission and purpose.
+        <div className="container-1">
+        The Civil Engineering Society (CES) at IIT BHU is a dedicated effort to foster communication, idea sharing, and knowledge exchange among emerging civil engineers. Our mission is to provide a robust platform for showcasing their multifaceted skills across various domains of life.CES takes an active role in enhancing faculty-student interaction within the department through a spectrum of initiatives, including events, talk shows, workshops, hackathons, and more. We are committed to facilitating holistic learning and career advancement opportunities for our members.
+
+Notably, CES proudly organizes 'SHILP,' one of the premier cultural events in the civil engineering community. More than just a fest, SHILP is a celebration where students explore and showcase their creative and technical prowess in the realm of civil engineering.
+
+Indeed, teamwork is the cornerstone of any successful society, and at CES, you'll encounter a diverse and dedicated team united by a common mission and purpose.
+
 
         </div>
-        <div className="container">
+        <div className="container-1">
           <h>Alumni Interaction</h>
           <p> Alumni Interaction Team dedicates themselves to strengthen the bond between alumni and students. They facilitate mentorship for students to seek guidance and learn from alumni experiences.</p>
           <br></br>
