@@ -70,13 +70,13 @@ function SideMenu() {
           Family
         </NavLink>
 
-        <NavLink
+        {/* <NavLink
           to="/alumni"
           activeClassName="active"
           className=" mob_pos mob_pos1 w-full px-5 py-2 rounded text-gray-800 items-center justify-center transition duration-150 border-b-4 border-transparent hover:border-blue-600"
         >
           Alumni
-        </NavLink>
+        </NavLink> */}
       </div>
     </div>
   );
@@ -153,13 +153,13 @@ const Navbar = ({ isShowJoin, setIsShowJoin }) => {
               Family
             </NavLink>
 
-            <NavLink
+            {/* <NavLink
               to="/alumni"
               activeClassName="active"
               className="md:inline-flex md:w-auto w-full lg:px-5 px-4 py-2 rounded text-gray-800 items-center justify-center transition duration-150 border-b-4 border-transparent hover:border-blue-600"
             >
               Alumni
-            </NavLink>
+            </NavLink> */}
           </div>
         </div>
         {/* {user ? (
