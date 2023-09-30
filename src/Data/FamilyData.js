@@ -9,7 +9,7 @@
 import mandal from "../Images/mandal.jpg";
 import rajesh from "../Images/rajesh.jpg";
 import suresh from "../Images/suresh.jpg";
-// import manish from "../Images/manish.jpeg";
+import supriya from "../Images/supriya.jpg";
 
 import student_aman from "../Images/Family/Students/Aman Srivastava _ AR Head.jpg"
 import student_ashwani from "../Images/Family/Students/ASHWANI KUMAR SHARMA ll CREATIVE TEAM HEAD.jpeg"
@@ -32,18 +32,18 @@ const Data = [
           {
             studentPic: mandal,
             studentName: "Dr. Sasankasekhar Mandal",
-            position: "Head of Department",
+            position: "Head of Department & President",
             email: "smandal.civ@iitbhu.ac.in",
             linkedIn:
               "https://www.linkedin.com/in/sasankasekhar-mandal-38bbb9190/",
           },
-          {
-            studentPic: mandal,
-            studentName: "Dr. Sasankasekhar Mandal",
-            position: "President",
-            email: "smandal.civ@iitbhu.ac.in",
-            linkedIn: "https://www.linkedin.com/in/pawan-kumar-sahu-4329a2208/",
-          },
+          // {
+          //   studentPic: mandal,
+          //   studentName: "Dr. Sasankasekhar Mandal",
+          //   position: "",
+          //   email: "smandal.civ@iitbhu.ac.in",
+          //   linkedIn: "https://www.linkedin.com/in/pawan-kumar-sahu-4329a2208/",
+          // },
           {
             studentPic: suresh,
             studentName: "Dr. Suresh Kumar",
@@ -53,7 +53,7 @@ const Data = [
             contactNo: " 8800157987",
           },
           {
-            studentPic: placeholder,
+            studentPic: supriya,
             studentName: "Dr. Supriya Mohanty",
             position: "Secretary",
             email: " rkumar.civ@iitbhu.ac.in",
@@ -80,7 +80,7 @@ const Data = [
           {
             studentPic: student_ayush,
             studentName: "Ayush Sinha",
-            position: "President",
+            position: "President(Students)",
             email: "ayush.sinha.civ20@itbhu.ac.in",
             linkedIn: "https://www.linkedin.com/in/aditya-garg-190/",
           },
@@ -94,7 +94,7 @@ const Data = [
           {
             studentPic: student_sarthak,
             studentName: "Sarthak Anand",
-            position: "Joint Secretary",
+            position: "Joint General Secretary",
             email: "mainsh.saini.civ20@itbhu.ac.in",
             linkedIn: "https://www.linkedin.com/in/manish-saini-9ba601208/",
           },
@@ -102,7 +102,7 @@ const Data = [
           {
             studentPic: placeholder,
             studentName: "Devesh Sindhi",
-            position: "Joint Secretary",
+            position: "Joint General Secretary",
             email: "mainsh.saini.civ20@itbhu.ac.in",
             linkedIn: "https://www.linkedin.com/in/manish-saini-9ba601208/",
           },
@@ -117,14 +117,14 @@ const Data = [
           {
             studentPic: student_shibanshee,
             studentName: "Shibanshee Ray",
-            position: "Alumni Realtions Head",
+            position: "Alumni Relations Head",
             email: "ayush sinha.civ20@itbhu.ac.in",
             linkedIn: "https://www.linkedin.com/in/pawan-kumar-sahu-4329a2208/",
           },
           {
             studentPic: student_aman,
             studentName: "Aman Srivastava",
-            position: "Alumni Realtions Head",
+            position: "Alumni Relations Head",
             email: "ayush sinha.civ20@itbhu.ac.in",
             linkedIn: "https://www.linkedin.com/in/pawan-kumar-sahu-4329a2208/",
           },

@@ -111,7 +111,7 @@ import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
 import Data from "../Data/FamilyData";
 import { MdEmail } from "react-icons/md";
-import RandomNamesRectangle from "../Components/RandomNamesRectangle";
+import MemberNames from "../Components/MemberNames";
 
 const Family = () => {
   const [focusedStudent, setFocusedStudent] = useState(null);
@@ -222,7 +222,7 @@ const Family = () => {
           </div>
         </section>
       </div>
-      <RandomNamesRectangle />
+      <MemberNames />
       <Footer />
     </div>
   );

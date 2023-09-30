@@ -1,0 +1,47 @@
+.list-container {
+  display: flex;
+  gap: 20px; /* Adjust the gap as needed */
+}
+
+.list {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
+}
+
+.member-names-container {
+  display: flex;
+  justify-content: space-between; /* To evenly distribute columns */
+  gap: 20px; /* Adjust the gap between columns */
+}
+
+.name-list {
+  flex: 1; /* Equal width for each column */
+  background-color: #f0f0f0; /* Optional background color for columns */
+  padding: 20px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.name-list h1 {
+  font-size: 1.5rem;
+}
+
+.name-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.name-list li {
+  margin-bottom: 8px;
+  font-size: 1rem;
+}

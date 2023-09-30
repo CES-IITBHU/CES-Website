@@ -37,6 +37,14 @@ function SideMenu() {
         </NavLink>
 
         <NavLink
+          to="/Shilp24"
+          activeClassName="active"
+          className=" mob_pos w-full px-5 py-2 rounded text-gray-800 items-center justify-center transition duration-150 border-b-4 border-transparent hover:border-blue-600"
+        >
+          Shilp24
+        </NavLink>
+
+        <NavLink
           to="/funds"
           activeClassName="active"
           className=" mob_pos w-full px-5 py-2 rounded text-gray-800 items-center justify-center transition duration-150 border-b-4 border-transparent hover:border-blue-600"
@@ -44,13 +52,7 @@ function SideMenu() {
           Funds
         </NavLink>
 
-        <NavLink
-          to="/Shilp24"
-          activeClassName="active"
-          className=" mob_pos w-full px-5 py-2 rounded text-gray-800 items-center justify-center transition duration-150 border-b-4 border-transparent hover:border-blue-600"
-        >
-          Shilp24
-        </NavLink>
+        
 
         {/* <NavLink
           to="/cloud"
@@ -118,6 +120,14 @@ const Navbar = ({ isShowJoin, setIsShowJoin }) => {
             </NavLink>
 
             <NavLink
+              to="/Shilp24"
+              activeClassName="active"
+              className=" mob_pos w-full px-5 py-2 rounded text-gray-800 items-center justify-center transition duration-150 border-b-4 border-transparent hover:border-blue-600"
+            >
+            Shilp24
+          </NavLink>
+
+            <NavLink
               to="/funds"
               activeClassName="active"
               className="md:inline-flex md:w-auto w-full lg:px-5 px-4 py-2 rounded text-gray-800 items-center justify-center transition duration-150 border-b-4 border-transparent hover:border-blue-600"
@@ -125,13 +135,7 @@ const Navbar = ({ isShowJoin, setIsShowJoin }) => {
               Funds
             </NavLink>
 
-            <NavLink
-              to="/Shilp24"
-              activeClassName="active"
-              className="md:inline-flex md:w-auto w-full lg:px-5 px-4 py-2 rounded text-gray-800 items-center justify-center transition duration-150 border-b-4 border-transparent hover:border-blue-600"
-            >
-              Shilp24
-            </NavLink>
+            
 
             {/* <NavLink
               to="/cloud"
