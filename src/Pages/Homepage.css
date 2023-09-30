@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Raleway:wght@500&display=swap');
+    /* CSS for styling */
+    .container {
+        max-width: 768px; /* Adjust the maximum width as needed */
+        margin: 0 auto;
+        padding: 20px;
+        font-family: 'Raleway', sans-serif; /* Replace 'Your_Custom_Font' with your preferred font */
+    }
+    .container-1 {
+        max-width: 768px; /* Adjust the maximum width as needed */
+        margin: 0 auto;
+        padding: 20px;
+        font-family: 'Your_Custom_Font', Arial, sans-serif; /* Replace 'Your_Custom_Font' with your preferred font */
+    }
+    .text {
+        color: #ffffff;
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+    }
+    .text-header {
+        color: #ffffff;
+        font-family: 'Raleway', sans-serif;
+        font-size: 30px;
+    }
+
+    h {
+        font-weight: bold; /* Make headers bold */
+        font-size: 28px; /* Adjust the font size as needed */
+    }
+
