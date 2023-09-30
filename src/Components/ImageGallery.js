@@ -29,8 +29,8 @@ const ImageGallery = () => {
                     "--swiper-navigation-color": "#fff",
                     "--swiper-navigation-size": "25px",
                     "--swiper-animation-speed": "8000",
-                    width:'100%',
-                    height:'100%',
+                    width:'80%',
+                    height:'80%',
                     marginBottom:'8px'
                 }}
   
@@ -38,7 +38,7 @@ const ImageGallery = () => {
                 loop={true}
                 spaceBetween={10}
                 navigation={true}
-                effect={'fade'}
+                // effect={'fade'}
                 modules={[FreeMode, Navigation, Thumbs, EffectFade, Autoplay]}
                 className="mySwiper2"
             >

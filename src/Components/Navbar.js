@@ -5,8 +5,7 @@ import CloseIcon from "../Images/close.png";
 import MenuIcon from "../Images/menu.png";
 import Logo_mobile from "../Images/iit bhu logo.png";
 import "../index.css";
-import { auth } from "./config";
-import { signOut } from "firebase/auth";
+
 
 function SideMenu() {
   // const user = auth.currentUser;
@@ -46,20 +45,20 @@ function SideMenu() {
         </NavLink>
 
         <NavLink
-          to="/forum"
+          to="/Shilp24"
           activeClassName="active"
           className=" mob_pos w-full px-5 py-2 rounded text-gray-800 items-center justify-center transition duration-150 border-b-4 border-transparent hover:border-blue-600"
         >
-          Forum
+          Shilp24
         </NavLink>
 
-        <NavLink
+        {/* <NavLink
           to="/cloud"
           activeClassName="active"
           className=" mob_pos w-full px-5 py-2 rounded text-gray-800 items-center justify-center transition duration-150 border-b-4 border-transparent"
         >
           Cloud
-        </NavLink>
+        </NavLink> */}
 
         <NavLink
           to="/family"
@@ -85,14 +84,6 @@ const Navbar = ({ isShowJoin, setIsShowJoin }) => {
   const [isSideMenuOpen, setisSideMenuOpen] = useState(false);
   const showSideMenu = () => {
     isSideMenuOpen ? setisSideMenuOpen(false) : setisSideMenuOpen(true);
-  };
-
-  const user = auth.currentUser;
-  console.log(user);
-  const Logout = async (e) => {
-    e.preventDefault();
-    await signOut(auth);
-    window.location.reload(false);
   };
 
   return (
@@ -135,20 +126,20 @@ const Navbar = ({ isShowJoin, setIsShowJoin }) => {
             </NavLink>
 
             <NavLink
-              to="/forum"
+              to="/Shilp24"
               activeClassName="active"
               className="md:inline-flex md:w-auto w-full lg:px-5 px-4 py-2 rounded text-gray-800 items-center justify-center transition duration-150 border-b-4 border-transparent hover:border-blue-600"
             >
-              Forum
+              Shilp24
             </NavLink>
 
-            <NavLink
+            {/* <NavLink
               to="/cloud"
               activeClassName="active"
               className="md:inline-flex md:w-auto w-full lg:px-5 px-4 py-2 rounded text-gray-800 items-center justify-center transition duration-150 border-b-4 border-transparent hover:border-blue-600"
             >
               Cloud
-            </NavLink>
+            </NavLink> */}
 
             <NavLink
               to="/family"
@@ -167,7 +158,7 @@ const Navbar = ({ isShowJoin, setIsShowJoin }) => {
             </NavLink>
           </div>
         </div>
-        {user ? (
+        {/* {user ? (
           <div className=" w-full md:inline-flex md:flex-grow justify-end md:w-auto">
             <div className="md:inline-flex cursor-pointer md:w-auto lg:text-lg text-[12px] lg:px-12 px-4 lg:mr-20 mr-3 border-2  border-blue-500 lg:py-2 py-1 rounded-xl text-gray-800 items-center justify-center hover:bg-green-500 hover:text-white">
               <div onClick={Logout}>Logout</div>
@@ -179,7 +170,7 @@ const Navbar = ({ isShowJoin, setIsShowJoin }) => {
               <Link to="/login">Register</Link>
             </div>
           </div>
-        )}
+        )} */}
       </nav>
       <div className="h-[60px] fixed w-full bg-white z-50 flex">
         <button
@@ -211,7 +202,7 @@ const Navbar = ({ isShowJoin, setIsShowJoin }) => {
             <img src={Logo_mobile} alt="logo" className="h-10 w-10"></img>
           </Link>
         </a>
-        {user ? (
+        {/* {user ? (
           <div onClick={Logout} className=" w-full justify-end">
             <div className="w-fit px-5 relative left-[186px] text-[15px] top-[18px] border-2 border-blue-500 py-1 rounded-md text-gray-800 items-center justify-center hover:bg-green-500 hover:text-white">
               Logout
@@ -225,7 +216,7 @@ const Navbar = ({ isShowJoin, setIsShowJoin }) => {
               </div>
             </Link>
           </div>
-        )}
+        )} */}
       </div>
     </div>
   );

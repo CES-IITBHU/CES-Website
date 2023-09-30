@@ -4,7 +4,7 @@ import Hero from "../Images/hero.png";
 import BG from "../Images/image.png";
 import Footer from "../Components/Footer";
 import ImageGallery from "../Components/ImageGallery";
-import video from '../Video/Civil_Dept_vid.mp4';
+// import video from '../Video/Civil_Dept_vid.mp4';
 
 const Homepage = () => {
   return (
@@ -63,9 +63,9 @@ const Homepage = () => {
           laborum et nam officia atque, fugiat harum deleniti placeat natus!
         </div>
       </div>
-      <video controls className="w-[98%] block m-auto mb-3">
+      {/* <video controls className="w-[60%] block m-auto mb-3">
         <source src={video} type="video/mp4"/>
-      </video>
+      </video> */}
       <ImageGallery/>
       <Footer />
     </div>

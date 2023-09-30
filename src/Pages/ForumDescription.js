@@ -1,7 +1,7 @@
 import React from 'react'
 import Footer from '../Components/Footer'
 import Navbar from '../Components/Navbar'
-import Data from '../Data/ForumData'
+import Data from '../Data/Shilp24'
 
 const ForumDescription = () => {
   const User = [];

@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
+import QR from "../Images/Funds/Fund UPI QR.jpg";
 
 const Funds = () => {
   return (
@@ -84,7 +85,16 @@ const Funds = () => {
               <label class="absolute px-2 ml-2 -mt-3 font-medium text-gray-600 bg-white">
                 Account Details <span className="text-red-500">*</span>
               </label>
-              <div className="pt-6 text-center">UPI Id: 9026663689@paytm</div>
+              <div style={{ textAlign: "center" }}>
+                <img
+                  src={QR}
+                  style={{ display: "block", margin: "auto" }}
+                  width="50%"
+                  alt="QR Code"
+                />
+              </div>
+
+              <div className="pt-6 text-center">UPI Id: civengsoc@ybl</div>
             </div>
             <div class="relative">
               <button class="inline-block w-full px-5 py-4 text-xl font-medium text-center text-white transition duration-200 bg-blue-600 rounded-lg hover:bg-blue-500 ease">

@@ -1,10 +1,8 @@
 import React from "react";
 import {
-  AiFillFacebook,
   AiFillLinkedin,
   AiFillInstagram,
 } from "react-icons/ai";
-import { BsTwitter } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -21,13 +19,14 @@ const Footer = () => {
                 Find us on any of these platforms, we respond 1-2 business days.
               </h5>
               <div className="mt-6 lg:mb-0 mb-6 flex">
-                <AiFillFacebook className="bg-white p-2 text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" />
-
+                <a href="https://www.instagram.com/ces_iitbhu/" target="_blank" rel="noreferrer">
                 <AiFillInstagram className="bg-white p-2 text-pink-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" />
+                </a>
 
+                <a href="https://www.linkedin.com/company/civil-engineering-society-iit-bhu/" target="_blank" rel="noreferrer">
                 <AiFillLinkedin className="bg-white p-2 text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" />
+                </a>
 
-                <BsTwitter className="bg-white p-2 text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" />
               </div>
             </div>
             <div className="w-full lg:w-6/12 px-4">

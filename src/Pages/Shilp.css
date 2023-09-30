@@ -1,0 +1,19 @@
+/* Shilp.css */
+.Text {
+  text-align: center;
+  padding: 200px; /* Adjust the padding value to move the footer down as needed */
+  font-size: 36px; /* Adjust the font size as desired */
+  color: #0077FF; /* Change the text color to your preferred color */
+  animation: coolAnimation 2s infinite alternate; /* Add animation */
+}
+
+@keyframes coolAnimation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1); /* Adjust the scale factor for the desired effect */
+  }
+}
+
+
