@@ -20,7 +20,9 @@ import student_nimish from "../Images/Family/Students/NIMISH PARMAR CREATIVE TEA
 import student_nishkarsh from "../Images/Family/Students/NISHKARSH SHARMA PUBLIC RELATIONS HEAD.jpg"
 import student_sarthak from "../Images/Family/Students/Sarthak Anand.jpg"
 import student_shibanshee from "../Images/Family/Students/Shibanshee Ray_ AR Head.jpg"
-import placeholder from "../Images/Family/Students/placeholder.jpg"
+import student_lakshmi from "../Images/Family/Students/Lakshmi Kar Pathak__ General Secretary .jpg"
+import student_devesh from "../Images/Family/Students/Devesh Sindhi.jpg"
+import student_ankit from "../Images/Family/Students/Ankit Kumar_Creative Head.png"
 
 const Data = [
   {
@@ -85,7 +87,7 @@ const Data = [
             linkedIn: "https://www.linkedin.com/in/aditya-garg-190/",
           },
           {
-            studentPic: placeholder,
+            studentPic: student_lakshmi,
             studentName: "Lakshmi Kar Pathak",
             position: "General Secretary",
             email: "rakshit.goutam.civ19@itbhu.ac.in",
@@ -100,7 +102,7 @@ const Data = [
           },
 
           {
-            studentPic: placeholder,
+            studentPic: student_devesh,
             studentName: "Devesh Sindhi",
             position: "Joint General Secretary",
             email: "mainsh.saini.civ20@itbhu.ac.in",
@@ -150,7 +152,7 @@ const Data = [
             linkedIn: "https://www.linkedin.com/in/pawan-kumar-sahu-4329a2208/",
           },
           {
-            studentPic: placeholder,
+            studentPic: student_ankit,
             studentName: "Ankit Kumar",
             position: "Content Head",
             email: "abhijeet.kumargaurav.civ20@itbhu.ac.in",
