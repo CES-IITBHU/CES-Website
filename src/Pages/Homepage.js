@@ -34,7 +34,7 @@ const Homepage = () => {
         {/*<img src={Vector} alt="" className="absolute -top-10 z-10" />  */}
       </div>
       <div className="mt-10 mb-20">
-        <div className="text-4xl text-center font-bold">About Us</div>
+        <div className="text-5xl text-center font-bold aboutus">About Us</div>
         <div className="container-1">
         The Civil Engineering Society (CES) at IIT BHU is a dedicated effort to foster communication, idea sharing, and knowledge exchange among emerging civil engineers. Our mission is to provide a robust platform for showcasing their multifaceted skills across various domains of life.CES takes an active role in enhancing faculty-student interaction within the department through a spectrum of initiatives, including events, talk shows, workshops, hackathons, and more. We are committed to facilitating holistic learning and career advancement opportunities for our members.
 

@@ -5,10 +5,11 @@
     /* CSS for styling */
     
     .container-1 {
-        max-width: 768px; /* Adjust the maximum width as needed */
-        margin: 0 auto;
-        padding: 20px;
-        font-family: 'Your_Custom_Font', Arial, sans-serif; /* Replace 'Your_Custom_Font' with your preferred font */
+        max-width: 825px; /* Adjust the maximum width as needed */
+        margin: 0 auto 0 3%;
+        padding: 50px 0 0 0;
+        font-family: 'Raleway', sans-serif; /* Replace 'Your_Custom_Font' with your preferred font */
+        font-size: 18px;
     }
     .text {
         color: #ffffff;
@@ -23,6 +24,11 @@
 
     h {
         font-weight: bold; /* Make headers bold */
-        font-size: 28px; /* Adjust the font size as needed */
+        font-size: 40px; /* Adjust the font size as needed */
     }
-
+    .aboutus {
+        /* font-family: 'Roboto', sans-serif;
+        font-weight: 700; */
+        text-align: left;
+        margin: 0 auto 0 5%;
+    }
