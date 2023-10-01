@@ -46,7 +46,7 @@ Indeed, teamwork is the cornerstone of any successful society, and at CES, you'l
 
         </div>
         <div className="deptImg">
-          <img src = {dept}></img>
+          <img src = {dept} alt="Department Image"></img>
         </div>
         {/* <div className="container-1">
           <h>Alumni Interaction</h>
