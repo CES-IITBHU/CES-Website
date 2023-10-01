@@ -37,4 +37,8 @@
     .deptImg {
         display: inline-block;
         margin: 0 2%;
+        width: auto;
+    }
+    .deptImg img {
+        width: 30vw;
     }
