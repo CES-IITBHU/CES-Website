@@ -23,7 +23,7 @@ function App() {
 
   return (
     <div>
-      {useEffect(() => {(document.title = "CES")}, [])}
+      {/* {useEffect(() => {(document.title = "CES")}, [])} */}
       <Router>
         <Routes>
           <Route exact path="/" element={<Homepage />} />
