@@ -21,7 +21,7 @@ const Homepage = () => {
               <h>The Society of Civil Engineers</h>
             </div>
             <div className="text">
-            <p>The Civil Engineering Society (CES) at IIT BHU is an esteemed association uniting current students and accomplished alumni. Our mission is to facilitate comprehensive growth and development among our members. Guided by experienced students, esteemed professors, and successful alumni, CES stands as a distinguished institution in the realm of civil engineering. We are committed to cultivating an environment where the fusion of knowledge and experience thrives, enabling each member to reach their full potential.</p>
+            <p>The Civil Engineering Society (CES) at IIT BHU is a revered organisation that provides a shared platform for students, faculty, and alumni, fostering a sense of community and collaboration. Our mission is to facilitate comprehensive growth and development among our members. Guided by experienced students, esteemed professors, and successful alumni, CES stands as a distinguished institution in the realm of civil engineering. We are committed to cultivating an environment where the fusion of knowledge and experience thrives, enabling each member to reach their full potential.</p>
 
             </div>
           </div>
@@ -44,7 +44,7 @@ Indeed, teamwork is the cornerstone of any successful society, and at CES, you'l
 
 
         </div>
-        <div className="container-1">
+        {/* <div className="container-1">
           <h>Alumni Interaction</h>
           <p> Alumni Interaction Team dedicates themselves to strengthen the bond between alumni and students. They facilitate mentorship for students to seek guidance and learn from alumni experiences.</p>
           <br></br>
@@ -60,7 +60,7 @@ Indeed, teamwork is the cornerstone of any successful society, and at CES, you'l
 </p>
           <br></br>
           <p>Together, we all are the driving force that ensures effective working of our society , it's this unity that allows us to overcome challenges, push boundaries, and leave a lasting legacy of innovation and progress.</p>
-        </div>
+        </div> */}
       </div>
       {/* <video controls className="w-[60%] block m-auto mb-3">
         <source src={video} type="video/mp4"/>

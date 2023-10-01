@@ -29,7 +29,7 @@ const ImageGallery = () => {
                     "--swiper-navigation-color": "#fff",
                     "--swiper-navigation-size": "25px",
                     "--swiper-animation-speed": "8000",
-                    width:'80%',
+                    width:'75%',
                     height:'80%',
                     marginBottom:'8px'
                 }}

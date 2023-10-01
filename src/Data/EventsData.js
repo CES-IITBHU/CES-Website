@@ -54,30 +54,6 @@ const Data = [
     color: "bg-red-400",
   },
   {
-    id: 23,
-    image: Event23,
-    topic: "Teacher Day 2023",
-    content:
-      "",
-    location: "",
-    time: "",
-    date: "5/9/23",
-    place: "flex-row",
-    color: "bg-red-400",
-  },
-  {
-    id: 24,
-    image: Event24,
-    topic: "Teacher Day 2023",
-    content:
-      "",
-    location: "",
-    time: "",
-    date: "5/9/23",
-    place: "flex-row",
-    color: "bg-red-400",
-  },
-  {
     id: 25,
     image: Event25,
     topic: "Teacher Day 2023",
@@ -90,69 +66,9 @@ const Data = [
     color: "bg-red-400",
   },
   {
-    id: 26,
-    image: Event26,
-    topic: "Teacher Day 2023",
-    content:
-      "",
-    location: "",
-    time: "",
-    date: "5/9/23",
-    place: "flex-row",
-    color: "bg-red-400",
-  },
-  {
-    id: 27,
-    image: Event27,
-    topic: "Teacher Day 2023",
-    content:
-      "",
-    location: "",
-    time: "",
-    date: "5/9/23",
-    place: "flex-row",
-    color: "bg-red-400",
-  },
-  {
-    id: 28,
-    image: Event28,
-    topic: "Teacher Day 2023",
-    content:
-      "",
-    location: "",
-    time: "",
-    date: "5/9/23",
-    place: "flex-row",
-    color: "bg-red-400",
-  },
-  {
-    id: 29,
-    image: Event29,
-    topic: "Teacher Day 2023",
-    content:
-      "",
-    location: "",
-    time: "",
-    date: "5/9/23",
-    place: "flex-row",
-    color: "bg-red-400",
-  },
-  {
-    id: 16,
-    image: Event16,
-    topic: "Chandrayan Landing",
-    content:
-      "",
-    location: "",
-    time: "",
-    date: "23/8/23",
-    place: "flex-row",
-    color: "bg-red-400",
-  },
-  {
     id: 17,
     image: Event17,
-    topic: "Chandrayan Landing",
+    topic: "Chandrayaan-3 Landing",
     content:
       "",
     location: "",
@@ -164,19 +80,7 @@ const Data = [
   {
     id: 18,
     image: Event18,
-    topic: "Chandrayan Landing",
-    content:
-      "",
-    location: "",
-    time: "",
-    date: "23/8/23",
-    place: "flex-row",
-    color: "bg-red-400",
-  },
-  {
-    id: 19,
-    image: Event19,
-    topic: "Chandrayan Landing",
+    topic: "Chandrayaan-3 Landing",
     content:
       "",
     location: "",
@@ -188,7 +92,7 @@ const Data = [
   {
     id: 20,
     image: Event20,
-    topic: "Chandrayan Landing",
+    topic: "Chandrayaan-3 Landing",
     content:
       "",
     location: "",
