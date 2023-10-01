@@ -19,7 +19,7 @@ const Homepage = () => {
         >
           <div className="md:w-[40%] w-[70%] relative md:top-40 top-20 ml-10 md:ml-16">
             <div className="text-header">
-              <h>The Society of Civil Engineers</h>
+              {/* <h>The Society of Civil Engineers</h> */}
             </div>
             <div className="text">
             <p>The Civil Engineering Society (CES) at IIT BHU is a revered organisation that provides a shared platform for students, faculty, and alumni, fostering a sense of community and collaboration. Our mission is to facilitate comprehensive growth and development among our members. Guided by experienced students, esteemed professors, and successful alumni, CES stands as a distinguished institution in the realm of civil engineering. We are committed to cultivating an environment where the fusion of knowledge and experience thrives, enabling each member to reach their full potential.</p>
