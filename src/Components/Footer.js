@@ -16,7 +16,7 @@ const Footer = () => {
                 Let's keep in touch!
               </h4>
               <h5 className="text-lg mt-0 mb-2 text-blueGray-600">
-                Find us on any of these platforms, we respond 1-2 business days.
+                Connect with us on Instagram and Linkedin.
               </h5>
               <div className="mt-6 lg:mb-0 mb-6 flex">
                 <a href="https://www.instagram.com/ces_iitbhu/" target="_blank" rel="noreferrer">
@@ -41,36 +41,36 @@ const Footer = () => {
                         to="/"
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                       >
+                        Home
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="/Events"
+                        className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                      >
                         Events
                       </Link>
                     </li>
                     <li>
                       <Link
-                        to="/"
+                        to="/Shilp24"
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                       >
-                        Funds
+                        SHILP
                       </Link>
                     </li>
                     <li>
                       <Link
-                        to="/"
+                        to="/Family"
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                       >
                         Family
                       </Link>
                     </li>
-                    <li>
-                      <Link
-                        to="/"
-                        className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                      >
-                        Alumni
-                      </Link>
-                    </li>
                   </ul>
                 </div>
-                <div className="w-full lg:w-4/12 px-4">
+                {/* <div className="w-full lg:w-4/12 px-4">
                   <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">
                     Other Resources
                   </span>
@@ -108,7 +108,7 @@ const Footer = () => {
                       </a>
                     </li>
                   </ul>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

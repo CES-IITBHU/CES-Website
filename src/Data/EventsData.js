@@ -11,9 +11,112 @@ import Event10 from '../Images/event10.JPG'
 import Event11 from '../Images/event11.JPG'
 import Event12 from '../Images/event12.jpeg'
 import Event13 from '../Images/event13.jpeg'
-
+import Event14 from '../Images/Events/2nd Year Orientation/IMG_6255.jpg'
+import Event15 from '../Images/Events/2nd Year Orientation/IMG_6256.jpg'
+import Event17 from '../Images/Events/Chandrayaan Landing/IMG_6323.jpg'
+import Event18 from '../Images/Events/Chandrayaan Landing/IMG_6327.jpg'
+import Event20 from '../Images/Events/Chandrayaan Landing/IMG_6329.jpg'
+import Event21 from '../Images/Events/Teacher_s Day 2023 Celebrations/IMG_6352.jpg'
+import Event22 from '../Images/Events/Teacher_s Day 2023 Celebrations/IMG_6354.jpg'
+import Event25 from '../Images/Events/Teacher_s Day 2023 Celebrations/IMG_6360.jpg'
 
 const Data = [
+  {
+    id: 21,
+    image: Event21,
+    topic: "Teacher Day 2023",
+    content:
+      "",
+    location: "",
+    time: "",
+    date: "5/9/23",
+    place: "flex-row",
+    color: "bg-red-400",
+  },
+  {
+    id: 22,
+    image: Event22,
+    topic: "Teacher Day 2023",
+    content:
+      "",
+    location: "",
+    time: "",
+    date: "5/9/23",
+    place: "flex-row",
+    color: "bg-red-400",
+  },
+  {
+    id: 25,
+    image: Event25,
+    topic: "Teacher Day 2023",
+    content:
+      "",
+    location: "",
+    time: "",
+    date: "5/9/23",
+    place: "flex-row",
+    color: "bg-red-400",
+  },
+  {
+    id: 17,
+    image: Event17,
+    topic: "Chandrayaan-3 Landing",
+    content:
+      "",
+    location: "",
+    time: "",
+    date: "23/8/23",
+    place: "flex-row",
+    color: "bg-red-400",
+  },
+  {
+    id: 18,
+    image: Event18,
+    topic: "Chandrayaan-3 Landing",
+    content:
+      "",
+    location: "",
+    time: "",
+    date: "23/8/23",
+    place: "flex-row",
+    color: "bg-red-400",
+  },
+  {
+    id: 20,
+    image: Event20,
+    topic: "Chandrayaan-3 Landing",
+    content:
+      "",
+    location: "",
+    time: "",
+    date: "23/8/23",
+    place: "flex-row",
+    color: "bg-red-400",
+  },
+  {
+    id: 14,
+    image: Event14,
+    topic: "2nd Year Orientation",
+    content:
+      "",
+    location: "",
+    time: "",
+    date: "29/7/23",
+    place: "flex-row",
+    color: "bg-red-400",
+  },
+  {
+    id: 15,
+    image: Event15,
+    topic: "2nd Year Orientation",
+    content:
+      "",
+    location: "",
+    time: "",
+    date: "29/7/23",
+    place: "flex-row",
+    color: "bg-red-400",
+  },
   {
     id: 1,
     image: Event1,
@@ -159,18 +262,19 @@ const Data = [
     place: "flex-row",
     color: "bg-red-400",
   },
-   {
-    id: 13,
-    image: Event13,
-    topic: "Intra civil Cricket Tournament",
-    content:
-      "",
-    location: "ADV Ground",
-    time: "",
-    date: "4/02/23",
-    place: "flex-row",
-    color: "bg-red-400",
-  },
+  {
+   id: 13,
+   image: Event13,
+   topic: "Intra civil Cricket Tournament",
+   content:
+     "",
+   location: "ADV Ground",
+   time: "",
+   date: "4/02/23",
+   place: "flex-row",
+   color: "bg-red-400",
+ },
+
 
 ];
 

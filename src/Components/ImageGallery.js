@@ -13,7 +13,7 @@ import image1 from '../Images/GalleryPhoto/1.jpg'
 import image2 from '../Images/GalleryPhoto/2.jpg'
 import image3 from '../Images/GalleryPhoto/3.jpg'
 import image4 from '../Images/GalleryPhoto/4.jpg'
-import image5 from '../Images/GalleryPhoto/4.jpg'
+// import image5 from '../Images/GalleryPhoto/4.jpg'
 const ImageGallery = () => {
     return (
         <div>
@@ -29,8 +29,8 @@ const ImageGallery = () => {
                     "--swiper-navigation-color": "#fff",
                     "--swiper-navigation-size": "25px",
                     "--swiper-animation-speed": "8000",
-                    width:'80%',
-                    height:'80%',
+                    width:'75%',
+                    height:'75%',
                     marginBottom:'8px'
                 }}
   
@@ -55,9 +55,9 @@ const ImageGallery = () => {
                 <SwiperSlide>
                     <img src={image4} alt="" className='md:w-full object-cover'/>
                 </SwiperSlide>
-                <SwiperSlide>
+                {/* <SwiperSlide>
                     <img src={image5} alt="" className='md:w-full object-cover'/>
-                </SwiperSlide>
+                </SwiperSlide> */}
 
 
             </Swiper>
