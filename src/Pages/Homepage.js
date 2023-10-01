@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../Components/Navbar";
 import Hero from "../Images/hero.png";
 import BG from "../Images/image.png";
+import dept from "../Images/dept.jpg";
 import Footer from "../Components/Footer";
 import ImageGallery from "../Components/ImageGallery";
 // import video from '../Video/Civil_Dept_vid.mp4';
@@ -43,6 +44,9 @@ Notably, CES proudly organizes 'SHILP,' one of the premier cultural events in th
 Indeed, teamwork is the cornerstone of any successful society, and at CES, you'll encounter a diverse and dedicated team united by a common mission and purpose.
 
 
+        </div>
+        <div className="deptImg">
+          <img src = {dept}></img>
         </div>
         {/* <div className="container-1">
           <h>Alumni Interaction</h>
