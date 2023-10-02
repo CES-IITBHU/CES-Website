@@ -8,6 +8,7 @@
         color: #ffffff;
         font-family: 'Raleway', sans-serif;
         font-size: 20px;
+        text-align: justify;
     }
     .text-header {
         color: #ffffff;
@@ -17,7 +18,7 @@
 
     h {
         font-weight: bold; /* Make headers bold */
-        font-size: 40px; /* Adjust the font size as needed */
+        font-size: 50px; /* Adjust the font size as needed */
     }
     .aboutus {
         /* font-family: 'Roboto', sans-serif;
@@ -41,4 +42,26 @@
     }
     .deptImg img {
         width: 30vw;
+    }
+    
+    @media screen and (max-width: 768px) {
+        .text {
+            text-align: center;
+        }
+        h {
+            font-weight: bold; /* Make headers bold */
+            font-size: 40px; /* Adjust the font size as needed */
+            text-align: center;
+        }
+        .deptImg {
+            display: none;
+        }
+        .aboutus {
+            text-align: center;
+        }
+        .container-1 {
+            text-align: center;
+            max-width: 80vw;
+            margin: 0 10% 0 10% ;
+        }
     }

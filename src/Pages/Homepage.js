@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../Components/Navbar";
-import Hero from "../Images/hero.png";
+// import Hero from "../Images/hero.png";
 import BG from "../Images/image.png";
 import dept from "../Images/dept.jpg";
 import Footer from "../Components/Footer";
@@ -14,10 +14,10 @@ const Homepage = () => {
       <Navbar />
       <div className="">
         <div
-          className="flex h-[90vh] bg-cover bg-blend-darken"
-          style={{ backgroundImage: `url(${BG})` }}
+          className="flex h-[110vh] md:h-[70vh] bg-cover bg-blend-darken"
+          style={{ backgroundImage: `url(${BG})`, overflow: 'hidden' }}
         >
-          <div className="md:w-[40%] w-[70%] relative md:top-40 top-20 ml-10 md:ml-16">
+          <div className="relative md:top-40 top-20 ml-10 mr-10 md:ml-16 md:mr-16">
             <div className="text-header">
               <h>The Society of Civil Engineers</h>
             </div>
@@ -26,11 +26,11 @@ const Homepage = () => {
 
             </div>
           </div>
-          <img
+          {/* <img
             src={Hero}
             alt=""
             className="h-[400px] md:block hidden relative top-24 ml-40"
-          />
+          /> */}
         </div>
         {/*<img src={Vector} alt="" className="absolute -top-10 z-10" />  */}
       </div>
