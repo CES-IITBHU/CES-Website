@@ -26,7 +26,7 @@
         margin: 0 auto 0 5%;
     }
     .container-1 {
-        max-width: 800px; /* Adjust the maximum width as needed */
+        max-width: 60vw; /* Adjust the maximum width as needed */
         margin: 0 auto 0 3%;
         padding: 50px 0 0 0;
         font-family: 'Raleway', sans-serif; /* Replace 'Your_Custom_Font' with your preferred font */
@@ -36,7 +36,7 @@
     }
     .deptImg {
         display: inline-block;
-        margin: 0 2%;
+        margin: 50px 2% 0 2%;
         width: auto;
     }
     .deptImg img {
